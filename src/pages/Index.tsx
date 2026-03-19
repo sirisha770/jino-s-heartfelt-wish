@@ -8,7 +8,7 @@ import PhotoCollage from "@/components/PhotoCollage";
 import MuteButton from "@/components/MuteButton";
 import ClickHeart from "@/components/ClickHeart";
 
-const photos = [photo1, photo2];
+const photos = [photo2, photo1];
 
 const Index = () => {
   const [clickHearts, setClickHearts] = useState<{ id: number; x: number; y: number }[]>([]);
@@ -39,10 +39,10 @@ const Index = () => {
       <div className="relative z-10 flex flex-col items-center px-4 py-12 md:py-20 max-w-2xl mx-auto">
         {/* Heading */}
         <h1
-          className="font-display text-5xl md:text-7xl text-rose-deep text-center mb-10 opacity-0 animate-fade-in"
+          className="font-display text-5xl md:text-5xl text-rose-deep text-center mb-10 opacity-0 animate-fade-in"
           style={{ animationDelay: "0.3s" }}
         >
-          Happy Birthday, Jino ❤️
+          Happy Birthday, Jino(Fern) ❤️
         </h1>
 
         {/* Photo slideshow */}
